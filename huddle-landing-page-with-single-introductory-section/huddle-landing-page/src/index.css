@@ -9,3 +9,8 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+#socialIcon:hover {
+  filter: invert(30%) sepia(38%) saturate(6701%) hue-rotate(294deg)
+    brightness(101%) contrast(103%);
+}

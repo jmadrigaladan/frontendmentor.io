@@ -16,9 +16,10 @@ const App = () => (
         <Hero />
       </div>
     </div>
-
-    <div className={`${styles.boxWidth} ${styles.paddingX} `}>
-      <SocialList />
+    <div className={`${styles.flexCenter}`}>
+      <div className={`${styles.boxWidth} ${styles.paddingX} `}>
+        <SocialList />
+      </div>
     </div>
   </div>
 );
