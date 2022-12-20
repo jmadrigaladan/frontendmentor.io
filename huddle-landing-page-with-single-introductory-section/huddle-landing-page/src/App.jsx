@@ -4,7 +4,7 @@ import NavBar from "./components/NavBar";
 import Hero from "./components/Hero";
 import SocialList from "./components/SocialList";
 const App = () => (
-  <div className="bg-[#684BB1] w-full  h-screen bg-[url('./assets/bg-desktop.svg')]">
+  <div className="bg-[#684BB1] w-full h-screen bg-[url('./assets/bg-mobile.svg')] ss:bg-[url('./assets/bg-desktop.svg')] bg-no-repeat bg-contain ss:bg-cover">
     <div className={`${styles.paddingX} ${styles.flexCenter}`}>
       <div className={`${styles.boxWidth}`}>
         <NavBar />
