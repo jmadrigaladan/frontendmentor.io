@@ -1,14 +1,17 @@
 import React from "react";
-import styles from "./styles";
+import textStyling from "./styles";
+import { styles } from "./styles";
+import NavBar from "./components/NavBar.jsx";
+import Hero from "./components/Hero.jsx";
+import { heroDesktopImg } from "./assets";
 
 const App = () => (
-  <div>
-    <div>
-      <h1 className={`${styles.heading}`}>Hello World</h1>
-      {/* NavBar */}
+  <div className="w-full bg-[url('./assets/image-hero-desktop.png')] bg-right-top bg-no-repeat bg-contain">
+    <div className={`${styles.paddingX} ${styles.flexCenter}`}>
+      <div className={`${styles.boxWidth}`}>
+        <Hero />
+      </div>
     </div>
-
-    <div>{/* Hero Section */}</div>
 
     <div>{/* Serivices Section */}</div>
 
