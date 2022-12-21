@@ -2,20 +2,24 @@ import React from "react";
 import { layout } from "../styles";
 import styles from "../styles";
 import textStyling from "../styles";
-import { heroDesktopImg } from "../assets";
-import { heroTabletImg } from "../assets";
 import { heroMobileImg } from "../assets";
 import NavBar from "./NavBar.jsx";
 
 const Hero = () => (
-  <div className="relative">
+  <div>
     <NavBar />
     <section className={`${layout.section}`}>
-      <div className={`max-w-[343px] sm:max-w-[398px] md:max-w-[457px]`}>
-        <h1 className={`${textStyling.heroHeading}`}>
+      <div
+        className={`w-full flex flex-col items-start ss:items-center sm:items-start sm:max-w-[398px] md:max-w-[457px] mt-14 md:mt-20 `}
+      >
+        <h1
+          className={`text-left ss:text-center sm:text-left ${textStyling.heroHeading}`}
+        >
           Maximize skill, minimize budget
         </h1>
-        <p className={`${textStyling.paragraph} mt-6 md:mt-7`}>
+        <p
+          className={`text-left ss:text-center sm:text-left ${textStyling.paragraph} mt-6 md:mt-7`}
+        >
           Our modern courses across a range of in-demand skills will give you
           the knowledge you need to live the life you want.
         </p>
@@ -23,8 +27,10 @@ const Hero = () => (
           Get Started
         </button>
       </div>
+      <div className="sm:hidden">
+        <img src={heroMobileImg} alt="" className="w-full mt-6" />
+      </div>
     </section>
-   
   </div>
 );
 
