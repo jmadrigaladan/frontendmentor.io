@@ -1,7 +1,7 @@
 import React from "react";
-import textStyling from "./styles";
 import { styles } from "./styles";
 import Hero from "./components/Hero.jsx";
+import Services from "./components/Services.jsx";
 
 const App = () => (
   <div className="w-full hero__bg h-screen">
@@ -10,8 +10,14 @@ const App = () => (
         <Hero />
       </div>
     </div>
-
-    <div>{/* Serivices Section */}</div>
+    <div className="services--gradient">
+      <div className={`mt-[200px] ${styles.paddingX} ${styles.flexCenter}`}>
+        <div className={`${styles.boxWidth}`}>
+          <Services />
+        </div>
+      </div>
+    </div>
+    {/* Serivices Section */}
 
     <div>{/* Footer */}</div>
   </div>

@@ -16,7 +16,7 @@ const textStyling = {
 };
 
 export const styles = {
-  boxWidth: "max-w-[1100px] w-full",
+  boxWidth: "max-w-[1150px] w-full",
   flexCenter: "flex justify-center items-center",
   flexStart: "flex justify-center items-start",
   paddingX: "sm:px-16 px-6",
