@@ -4,8 +4,8 @@ import ServiceCard from "./ServiceCard.jsx";
 
 const Services = () => (
   <section className="h-screen ">
-    <div className="flex items-end flex-wrap">
-      <div className="gradient-1 w-[350px] h-[330px] rounded-[15px] mr-7">
+    <div className="flex justify-center items-end flex-wrap md:max-w-[1200px]">
+      <div className="gradient-1 w-[339px] h-[259px] md:w-[350px] md:h-[330px] rounded-[15px] mr-2 md:mr-7">
         <div className="w-full flex justify-center">
           <h1
             className={`${textStyling.servicesHeading} mt-16 w-[286px] h-[120px]`}
@@ -21,6 +21,7 @@ const Services = () => (
       <ServiceCard className="" />
       <ServiceCard className="" />
     </div>
+   
   </section>
 );
 

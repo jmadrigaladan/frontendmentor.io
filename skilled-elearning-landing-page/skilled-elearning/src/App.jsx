@@ -10,11 +10,14 @@ const App = () => (
         <Hero />
       </div>
     </div>
-    <div className="services--gradient">
-      <div className={`mt-[200px] ${styles.paddingX} ${styles.flexCenter}`}>
+    <div className="">
+      <div
+        className={`mt-[200px] ${styles.paddingX} ${styles.flexCenter} relative`}
+      >
         <div className={`${styles.boxWidth}`}>
           <Services />
         </div>
+        {/* <div className="services--gradient absolute bottom-0" /> */}
       </div>
     </div>
     {/* Serivices Section */}

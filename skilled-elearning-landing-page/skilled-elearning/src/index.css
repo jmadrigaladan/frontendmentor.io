@@ -29,8 +29,7 @@
 .services--gradient {
   background: linear-gradient(180deg, #ffffff 0%, #f0f1ff 100%);
   width: 100%;
-  margin-top: 48px;
-  height: 888px;
+  height: 100%;
 }
 
 .button--gradient-1:hover {
