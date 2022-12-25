@@ -2,6 +2,7 @@ import React from "react";
 import { styles } from "./styles";
 import Hero from "./components/Hero.jsx";
 import Services from "./components/Services.jsx";
+import Footer from "./components/Footer.jsx";
 
 const App = () => (
   <div className="w-full hero__bg h-screen">
@@ -10,19 +11,20 @@ const App = () => (
         <Hero />
       </div>
     </div>
-    <div className="">
-      <div
-        className={`mt-[200px] ${styles.paddingX} ${styles.flexCenter} relative`}
-      >
+    <div className={`mt-[200px] ${styles.paddingX} ${styles.flexCenter} relative`}>
+      <div className={`${styles.boxWidth} z-[3]`}>
+        <Services />
+      </div>
+      <div className="services--gradient absolute" />
+    </div>
+
+    <div className="bg-[#13183f]">
+      <div className={`${styles.paddingX} ${styles.flexCenter}`}>
         <div className={`${styles.boxWidth}`}>
-          <Services />
+          <Footer />
         </div>
-        {/* <div className="services--gradient absolute bottom-0" /> */}
       </div>
     </div>
-    {/* Serivices Section */}
-
-    <div>{/* Footer */}</div>
   </div>
 );
 

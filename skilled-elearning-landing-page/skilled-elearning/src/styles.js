@@ -22,8 +22,6 @@ export const styles = {
   paddingX: "sm:px-12 px-6",
   paddingY: "sm:py-16 py-6",
   padding: "sm:px-12 px-6 sm:py-12 py-4",
-  marginX: "sm:mx-12 mx-6",
-  marginY: "sm:my-12 my-6",
 };
 
 export const layout = {
