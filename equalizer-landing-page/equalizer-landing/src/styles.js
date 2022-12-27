@@ -3,6 +3,10 @@ const textStyling = {
     "font-plexSans text-primary font-bold text-[40px] leading-[48px] sm:text-[64px] sm:leading-[64px] lg:text-[88px] lg:leading-[88px] ",
   heroPara:
     "font-plexSans text-primary font-normal text-[16px] leading-[26px] sm:text-[18px] sm:leading-[28px] md:text-[20px] md:leading-[34px]",
+  aboutText:
+    "font-plexSans text-secondary font-bold text-[32px] leading-[40px] md:text-[40px] md:leading-[52px]",
+  aboutPara:
+    "font-plexSans text-secondary font-extralight text-[18px] leading-[28px] md:text-[20px] md:leading-[34px]",
 };
 
 export const styles = {

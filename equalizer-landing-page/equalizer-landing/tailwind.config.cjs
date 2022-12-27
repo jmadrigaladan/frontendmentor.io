@@ -8,6 +8,7 @@ module.exports = {
       },
       colors: {
         primary: "#191826",
+        secondary: "#FCFAF9",
       },
     },
     screens: {
