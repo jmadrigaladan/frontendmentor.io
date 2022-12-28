@@ -5,14 +5,18 @@ import textStyling, { styles } from "../styles";
 
 const About = () => (
   <section className={`${styles.flexCenter} mt-[200px] sm:mt-[280px]`}>
-    <div className="flex justify-center bg-primary w-[375px] h-[600px] sm:w-[696px] rounded-[12px] relative">
-      <img src={secondaryPattern} alt="" className="w-[280px] h-[420px] sm:ml-[60px]" />
+    <div className="flex justify-center bg-primary w-[375px] h-[600px] sm:w-[696px] md:w-[1100px] rounded-[12px] relative">
+      <img
+        src={secondaryPattern}
+        alt=""
+        className="w-[280px] h-[420px] md:w-[312px] md:h-[468px] sm:ml-[60px] md:ml-[-10px] md:mt-[-70px]"
+      />
       <img
         src={illustration}
         alt=""
-        className="absolute w-[208px] h-[430px] sm:w-[270px] sm:h-[556px] top-[-120px] sm:left-[60px]"
+        className="absolute w-[208px] h-[430px] sm:w-[270px] sm:h-[556px] top-[-120px] sm:left-[60px] md:left-[197px]"
       />
-      <div className="bg-[#FA7453] w-[375px] sm:w-[399px] rounded-[12px] h-[546px] absolute bottom-[-325px] sm:bottom-[-115px] sm:right-[40px] flex justify-center ">
+      <div className="bg-[#FA7453] w-[375px] sm:w-[399px] md:w-[446px] rounded-[12px] h-[546px] md:h-[625px] absolute bottom-[-325px] sm:bottom-[-115px] sm:right-[40px] flex justify-center ">
         <div className="w-[302px] h-[450px] my-[48px]">
           <h1 className={`${textStyling.aboutText}`}>Premium EQ</h1>
           <p className={`${textStyling.aboutPara} mt-[12px]`}>

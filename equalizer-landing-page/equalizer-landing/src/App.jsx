@@ -42,7 +42,9 @@ function App() {
           <About />
         </div>
       </div>
-      <div className={`${styles.flexCenter} ${styles.paddingX} mt-[400px] sm:mt-[280px]`}>
+      <div
+        className={`${styles.flexCenter} ${styles.paddingX} mt-[400px] sm:mt-[280px]`}
+      >
         <div className={`${styles.boxWidth}`}>
           <Footer />
         </div>
