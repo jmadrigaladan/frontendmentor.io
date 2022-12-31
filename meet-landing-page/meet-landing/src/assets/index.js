@@ -2,7 +2,7 @@ import desktopFooter from "./desktop/image-footer.jpg";
 import desktopHeroLeft from "./desktop/image-hero-left.png";
 import desktopHeroRight from "./desktop/image-hero-right.png";
 import tabletFooter from "./tablet/image-footer.jpg";
-import tabletHero from "./tablet/image-hero.png";
+import smallScreenHero from "./tablet/image-hero.png";
 import mobileFooter from "./mobile/image-footer.jpg";
 import manTexting from "./desktop/image-man-texting.jpg";
 import menInMeeting from "./desktop/image-men-in-meeting.jpg";
@@ -15,7 +15,7 @@ export {
   desktopHeroLeft,
   desktopHeroRight,
   tabletFooter,
-  tabletHero,
+  smallScreenHero,
   mobileFooter,
   manTexting,
   menInMeeting,

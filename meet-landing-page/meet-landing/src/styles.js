@@ -12,9 +12,13 @@ const textStyles = {
     "font-redHat text-shadeWhite font-medium text-[18px] leading-[26px]",
 };
 
-const buttonStyles = {
-  primaryButton: "w-[193px] h-[58px] rounded-[29px]",
-  secondaryButton: "w-[139px] h-[58px] rounded-[29px]",
+export const styles = {
+  boxWidth: "max-w-[1150px] w-full",
+  flexCenter: "flex justify-center items-center",
+  flexStart: "flex justify-center items-start",
+  paddingX: "sm:px-12 px-6",
+  paddingY: "sm:py-12 py-6",
+  padding: "sm:px-12 px-6 sm:py-12 py-4",
 };
 
 export default textStyles;
