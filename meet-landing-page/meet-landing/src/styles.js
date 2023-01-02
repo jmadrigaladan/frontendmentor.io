@@ -1,6 +1,6 @@
 const textStyles = {
   heroText:
-    "font-redHat text-primary font-black text-[40px] leading-[44px]  sm:text-[48px] sm:leading-[48px] md:text-[64px] md:leading-[64px]",
+    "font-redHat text-primary font-black text-[40px] leading-[44px]  sm:text-[48px] sm:leading-[48px] lg:text-[64px] lg:leading-[64px]",
   sectionText:
     "font-redHat text-primary font-black text-[32px] leading-[36px] sm:text-[40px] sm:leading-[44px]  ",
   sectionHeader:
@@ -13,7 +13,7 @@ const textStyles = {
 };
 
 export const styles = {
-  boxWidth: "max-w-[1150px] w-full",
+  boxWidth: "max-w-[1100px] w-full",
   flexCenter: "flex justify-center items-center",
   flexStart: "flex justify-center items-start",
   paddingX: "sm:px-12 px-6",
