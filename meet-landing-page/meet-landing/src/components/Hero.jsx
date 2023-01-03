@@ -8,15 +8,15 @@ const Hero = () => (
     <img
       src={smallScreenHero}
       alt=""
-      className="w-screen flex flex-1 md:hidden"
+      className="w-screen flex flex-1 lg:hidden max-h-[343px]"
     />
-    <div className="flex flex-col md:flex-row items-center md:justify-between w-full max-w-screen">
+    <div className="flex flex-col lg:flex-row items-center lg:justify-between w-full max-w-screen">
       <img
         src={desktopHeroLeft}
         alt=""
-        className="w-full hidden md:inline max-w-[394px] max-h-[303px]"
+        className="w-[1/3] hidden lg:inline max-w-[394px] max-h-[303px]"
       />
-      <div className="w-[327px] h-[354px] ss:w-[457px] ss:h-[262px] mt-[48px] md:mt-[0px] lg:max-w-[540px] lg:h-[303px] mx-[24px] ">
+      <div className="w-[327px] h-[354px] ss:w-[457px] ss:h-[262px] mt-[48px] lg:mt-[0px] lg:max-w-[540px] lg:h-[303px] mx-[24px] ">
         <h1 className={`${textStyles.heroText} text-center`}>
           Group Chat for Everyone
         </h1>
@@ -50,7 +50,7 @@ const Hero = () => (
       <img
         src={desktopHeroRight}
         alt=""
-        className="w-full hidden md:inline max-w-[394px] max-h-[303px]"
+        className="w-[1/3] hidden lg:inline max-w-[394px] max-h-[303px]"
       />
     </div>
   </section>
