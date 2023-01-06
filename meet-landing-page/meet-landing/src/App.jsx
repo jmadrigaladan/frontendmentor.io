@@ -11,7 +11,8 @@ import {
 } from "./assets";
 import { mobileFooter } from "./assets";
 import Hero from "./components/Hero";
-import Divider from "./components/divider";
+import Divider from "./components/Divider";
+import Button from "./components/Button";
 function App() {
   return (
     <div className="w-full ">
@@ -21,14 +22,12 @@ function App() {
       <div className="w-full max-w-screen">
         <Hero />
       </div>
-
+      <Divider sectionText={"01"} />
       <div className={`${styles.flexCenter} `}>
         <div className={`${styles.boxWidth}`}>
-          <section className="w-full mt-[64px] mb-[200px]">
-            <Divider sectionText={"01"} />
+          <section className="w-full mt-[64px] mb-[200px] relative">
             <div className="flex justify-center">
               <div className="flex flex-wrap sm:flex-nowrap justify-center sm:items-center w-screen px-4 sm:px-12 mt-[64px] ">
-                {/* wrapper for the images */}
                 <img
                   src={womanVideoChatting}
                   alt=""
@@ -67,13 +66,15 @@ function App() {
                   invite-only team access, data encryption, and data export.
                 </p>
               </div>
+              <div className="absolute bottom-[-230px] z-40">
+                <Divider sectionText={"02"} />
+              </div>
             </div>
-            <Divider sectionText={"02"} />
           </section>
         </div>
       </div>
 
-      <footer className="bgFooter h-[540px] md:h-[308px]">
+      <footer className="bgFooter h-[540px] md:h-[308px] relative">
         <img
           src={mobileFooter}
           alt=""
@@ -89,6 +90,29 @@ function App() {
           alt=""
           className="hidden md:block h-[308px] w-screen  opacity-20"
         />
+        <div className="absolute top-0 left-0 bottom-0 right-0 m-auto w-[327px] h-[264px] mt-[96px] flex flex-col items-center md:flex-row md:items-start md:justify-between md:w-[1100px] md:h-[88px]">
+          <h1
+            className={`${textStyles.footerText} text-center md:text-left md:w-[350px]`}
+          >
+            Experience more together
+          </h1>
+          <p
+            className={`${textStyles.footerPara} text-center mt-[24px] md:mt-[8px] md:text-left md:w-[350px]`}
+          >
+            Stay connected with reliable HD meetings and unlimited one-on-one
+            and group video sessions.
+          </p>
+          <Button
+            width={"193px"}
+            text={"Download"}
+            background={"bg-darkPurple"}
+            hoverBgColor={"hover:bg-hoverPurple"}
+            version={true}
+            versionColor={"text-lightPurple"}
+            className="w-[193px]"
+            margin={"mt-[32px]"}
+          ></Button>
+        </div>
       </footer>
     </div>
   );
